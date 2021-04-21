@@ -30,98 +30,100 @@ var date=[30];
     date[27]=("<h3> Sehri </h3> 04:25 AM "+"<h3>Iftar </h3> : 7:08 PM "+"<h4>Date</h4> 11 May 2021")
     date[28]=("<h3> Sehri </h3> 04:24 AM "+"<h3>Iftar </h3> : 7:08 PM "+"<h4>Date</h4> 12 May 2021")
     date[29]=("<h3> Sehri </h3> 04:24 AM "+"<h3>Iftar </h3> : 7:09 PM "+"<h4>Date</h4> 13 May 2021")
-
-
-    if(input==1){
-        document.write(date[0])
+    if(input<=30&&input>0){
+        document.write(date[--input])
     }
-    else if(input==2){
-        document.write(date[1])
-    }
-    else if(input==3){
-        document.write(date[2])
-    }
-    else if(input==4){
-        document.write(date[3])
-    }
-    else if(input==5){
-        document.write(date[4])
-    }
-    else if(input==6){
-        document.write(date[5])
-    }
-    else if(input==7){
-        document.write(date[6])
-    }
-    else if(input==8){
-        document.write(date[7])
-    }
-    else if(input==9){
-        document.write(date[8])
-    }
-    else if(input==10){
-        document.write(date[9])
-    }
-    else if(input==11){
-        document.write(date[10])
-    }
-    else if(input==12){
-        document.write(date[11])
-    }
-    else if(input==13){
-        document.write(date[12])
-    }
-    else if(input==14){
-        document.write(date[13])
-    }
-    else if(input==15){
-        document.write(date[14])
-    }
-    else if(input==16){
-        document.write(date[15])
-    }
-    else if(input==17){
-        document.write(date[16])
-    }
-    else if(input==18){
-        document.write(date[17])
-    }
-    else if(input==19){
-        document.write(date[18])
-    }
-    else if(input==20){
-        document.write(date[19])
-    }
-    else if(input==21){
-        document.write(date[20])
-    }
-    else if(input==22){
-        document.write(date[21])
-    }
-    else if(input==23){
-        document.write(date[22])
-    }
-    else if(input==24){
-        document.write(date[23])
-    }
-    else if(input==25){
-        document.write(date[24])
-    }
-    else if(input==26){
-        document.write(date[25])
-    }
-    else if(input==27){
-        document.write(date[26])
-    }
-    else if(input==28){
-        document.write(date[27])
-    }
-    else if(input==29){
-        document.write(date[28])
-    }
-    else if(input==30){
-        document.write(date[29])
-    }
+    
+    // if(input==1){
+    //     document.write(date[input])
+    // }
+    // else if(input==2){
+    //     document.write(date[1])
+    // }
+    // else if(input==3){
+    //     document.write(date[2])
+    // }
+    // else if(input==4){
+    //     document.write(date[3])
+    // }
+    // else if(input==5){
+    //     document.write(date[4])
+    // }
+    // else if(input==6){
+    //     document.write(date[5])
+    // }
+    // else if(input==7){
+    //     document.write(date[6])
+    // }
+    // else if(input==8){
+    //     document.write(date[7])
+    // }
+    // else if(input==9){
+    //     document.write(date[8])
+    // }
+    // else if(input==10){
+    //     document.write(date[9])
+    // }
+    // else if(input==11){
+    //     document.write(date[10])
+    // }
+    // else if(input==12){
+    //     document.write(date[11])
+    // }
+    // else if(input==13){
+    //     document.write(date[12])
+    // }
+    // else if(input==14){
+    //     document.write(date[13])
+    // }
+    // else if(input==15){
+    //     document.write(date[14])
+    // }
+    // else if(input==16){
+    //     document.write(date[15])
+    // }
+    // else if(input==17){
+    //     document.write(date[16])
+    // }
+    // else if(input==18){
+    //     document.write(date[17])
+    // }
+    // else if(input==19){
+    //     document.write(date[18])
+    // }
+    // else if(input==20){
+    //     document.write(date[19])
+    // }
+    // else if(input==21){
+    //     document.write(date[20])
+    // }
+    // else if(input==22){
+    //     document.write(date[21])
+    // }
+    // else if(input==23){
+    //     document.write(date[22])
+    // }
+    // else if(input==24){
+    //     document.write(date[23])
+    // }
+    // else if(input==25){
+    //     document.write(date[24])
+    // }
+    // else if(input==26){
+    //     document.write(date[25])
+    // }
+    // else if(input==27){
+    //     document.write(date[26])
+    // }
+    // else if(input==28){
+    //     document.write(date[27])
+    // }
+    // else if(input==29){
+    //     document.write(date[28])
+    // }
+    // else if(input==30){
+    //     document.write(date[29])
+    // }
     else{
         alert("Invalid Number")
     }

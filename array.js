@@ -1,4 +1,4 @@
-var input=+prompt("Enter a number")
+var input=+prompt("which date's sehr and iftar time you want to know.")
 var date=[30];
     date[0]=("<h3> Sehri </h3> 04:51 AM "+"<h3>Iftar </h3> : 6:55 PM "+"<h4>Date</h4> 14 April 2021")
     date[1]=("<h3> Sehri </h3> 04:50 AM "+"<h3>Iftar </h3> : 6:55 PM "+"<h4>Date</h4> 15 April 2021")

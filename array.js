@@ -34,7 +34,11 @@ var date=[30];
         document.write(date[--input])
     }
     
-    // if(input==1){
+
+    else{
+        alert("Invalid Number")
+    }
+        // if(input==1){
     //     document.write(date[input])
     // }
     // else if(input==2){
@@ -124,6 +128,3 @@ var date=[30];
     // else if(input==30){
     //     document.write(date[29])
     // }
-    else{
-        alert("Invalid Number")
-    }
